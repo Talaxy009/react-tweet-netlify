@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "netlify dev",
-    "build": "netlify function:build"
+    "build": "netlify function:build --src netlify/functions"
   },
   "devDependencies": {
     "esbuild": "^0.17.18",
