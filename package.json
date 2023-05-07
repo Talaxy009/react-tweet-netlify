@@ -1,0 +1,17 @@
+{
+  "name": "react-tweet-netlify",
+  "packageManager": "yarn@3.5.0",
+  "dependencies": {
+    "@netlify/functions": "^1.4.0",
+    "react-tweet": "^2.0.1"
+  },
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "netlify function:build"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.18",
+    "netlify-cli": "^15.0.0",
+    "typescript": "^5.0.4"
+  }
+}
