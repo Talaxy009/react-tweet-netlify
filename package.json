@@ -1,5 +1,10 @@
 {
   "name": "react-tweet-netlify",
+  "description": "A react-tweet serverless function for Netlify.",
+  "private": "true",
+  "author": {
+    "name": "Talaxy009"
+  },
   "packageManager": "yarn@3.5.0",
   "dependencies": {
     "@netlify/functions": "^1.4.0",
