@@ -1,22 +1,21 @@
 {
   "name": "react-tweet-netlify",
   "description": "A react-tweet serverless function for Netlify.",
-  "private": "true",
   "author": {
     "name": "Talaxy009"
   },
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "yarn@3.6.1",
   "dependencies": {
-    "@netlify/functions": "^1.4.0",
-    "react-tweet": "^2.0.1"
+    "@netlify/functions": "^2.0.1",
+    "react-tweet": "^3.1.1"
   },
   "scripts": {
     "dev": "netlify dev",
     "build": "netlify function:build --src netlify/functions"
   },
   "devDependencies": {
-    "esbuild": "^0.17.18",
-    "netlify-cli": "^15.0.0",
-    "typescript": "^5.0.4"
+    "esbuild": "^0.19.2",
+    "netlify-cli": "^16.1.0",
+    "typescript": "^5.1.6"
   }
 }
