@@ -4,18 +4,18 @@
   "author": {
     "name": "Talaxy009"
   },
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@4.4.0",
   "dependencies": {
-    "@netlify/functions": "^2.0.1",
-    "react-tweet": "^3.1.1"
+    "@netlify/functions": "^2.8.1",
+    "react-tweet": "^3.2.1"
   },
   "scripts": {
     "dev": "netlify dev",
     "build": "netlify function:build --src netlify/functions"
   },
   "devDependencies": {
-    "esbuild": "^0.19.2",
-    "netlify-cli": "^16.1.0",
-    "typescript": "^5.1.6"
+    "esbuild": "^0.23.1",
+    "netlify-cli": "^17.34.2",
+    "typescript": "^5.5.4"
   }
 }
